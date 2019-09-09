@@ -1,0 +1,79 @@
+.container {
+    max-width: 1170px;
+}
+
+%nullLink {
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+%nullList {
+    list-style: none;
+}
+
+%nullInputs {
+    outline: none;
+}
+
+%baseFlex {
+    display: flex;
+}
+
+%columnFlex {
+    flex-direction: column;
+}
+
+%flexFullCenter {
+    justify-content: center;
+    align-items: center;
+}
+
+%justifyCenter {
+    justify-content: center;
+}
+
+%alignCenter {
+    align-items: center;
+}
+
+%textCenter {
+    text-align: center;
+}
+
+%basePos {
+    position: relative;
+    z-index: 1;
+}
+
+%absolutePos {
+    position: absolute;
+}
+
+%marginCenter {
+    margin: 0 auto;
+}
+
+%baseTransition {
+    transition: .5s;
+}
+
+%fullAbsolute{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+%nullWord{
+    white-space: nowrap;
+}
+
+%baseFontBold{
+    font-family: SofiaProBold;
+}
+%duoFont{
+    font-family: 'Roboto', sans-serif; 
+}

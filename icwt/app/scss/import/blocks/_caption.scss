@@ -1,0 +1,14 @@
+.caption{
+    @extend %baseFontBold;
+    &_size{
+        &_bg{
+            font-size: (60rem / 16);
+            line-height: (64rem / 16);
+        } 
+    }
+    &_font{ 
+        &_bold{
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body {  
+    min-width: 320px;
+}
+
+.wrapper{
+    position: relative;
+}
+
+// @font-face{
+//     font-family: SofiaProBold;
+//     src:url("../fonts/SofiaProBold.ttf"),
+//         url("../fonts/SofiaProBold.eot"),
+//         url("../fonts/SofiaProBold.woff");
+//         font-weight: 700;
+// }
+
+@import "import/vars";
+@import "import/mixins";
+@import "import/blocks/blocks";
+@import "import/header";
+@import "import/main";
+@import "import/footer";
+@import "import/override";
+@import "import/template";
+@import "import/animation";
+@import "import/media";

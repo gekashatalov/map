@@ -1,0 +1,64 @@
+.main {
+    }
+
+$montserrat: 'Montserrat', sans-serif;
+
+
+.form-block {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 326px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-block__title {
+    text-align: center;
+    display: table-cell;
+    width: 100%;
+    max-width: 326px;
+    height: 100%;
+    font-size: 14px;
+    letter-spacing:1.68px;
+    text-transform: uppercase;
+    font-family: $montserrat;
+}
+
+.form-block__title_red-big {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    max-width: 326px;
+    font-size: 20px;
+    letter-spacing:0.5px;
+    color:red;
+    text-transform: uppercase;
+    font-family: $montserrat;
+    font-weight: bold;
+}
+
+.form-register__input{
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing:1.4px;
+    font-family: $montserrat;
+    height: 50px;
+    width: 100%;
+    max-width: 326px;
+    background-color: #EBEBEB ;
+    margin-bottom: 23px;
+    padding-left: 20px;
+
+}
+
+.form-register__input-btn{
+    background: transparent linear-gradient(270deg, #E11414 0%, #B70000 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 30px #00000026;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 0%;
+    text-align: center;
+
+}

@@ -1,0 +1,21 @@
+.button{
+    @extend %nullLink;
+    @extend %baseTransition;
+    @extend %baseFontBold;
+    &_color{
+        &_white{
+        }
+    }
+    &_shadow{
+    }
+    &_radius{
+    }
+    &_size{
+        &_md{
+        }
+        &_full{
+        }
+    }
+    &_theme{
+    }
+}
